@@ -4,9 +4,9 @@ var today = new Date();
 document.getElementById("here").innerHTML = today;
 
 function reveal(p){
-  if(p == 1){
+  if (p == 1){
     document.getElementById("hiddenMessage").style.display = 'block';
-  } if(p ==0){
+  } else if(p == 0){
     document.getElementById("hiddenMessage").style.display = 'none';
   }
 }
